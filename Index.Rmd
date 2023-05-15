@@ -1,9 +1,9 @@
 ---
 title: '**Six Nations Fantasy Rugby Visualisation and Analysis**'
 output:
-  pdf_document:
   html_document:
     df_print: paged
+  pdf_document:
 mainfont: Arial
 ---
 
