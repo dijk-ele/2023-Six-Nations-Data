@@ -1,5 +1,32 @@
 Codebook
 
+Variable Statistics:
+    X: Player Name
+    N: Number of matches
+    MOTM: Man of the match
+    TM: Tackles made
+    DM: Dominant tackles
+    LB: Line breaks
+    MC: Meters carries
+    FT: 50-22 kick
+    LS: Line out steal
+    BS: Breakdown steal
+    T: Try
+    TA: Try assist
+    C: Conversion
+    P: Penalty
+    DG: Drop goal
+    YC: Yellow card
+    RC: Red card
+    AP: Average points
 
-
-wefwef
+Data frames:
+    combined_nations: combined data frame from all 6 countries with their top 3 players statistics
+    fantasy_data: combined data frames containing fantasy statistics
+    fantasy_long: fantasy_data dataframe in long format for ggplot
+    
+Lists:
+    list_nations: contains 6 seperate raw data frames for each country
+    players_to_keep: contains names of top 3 players from each country to filter data frames by
+    filtered_datasets: contains 6 seperate data frames with filtered players
+ 
