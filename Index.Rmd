@@ -1,9 +1,9 @@
 ---
 title: '**Six Nations Fantasy Rugby Visualisation and Analysis**'
 output:
+  pdf_document:
   html_document:
     df_print: paged
-  pdf_document:
 mainfont: Arial
 ---
 
@@ -317,7 +317,6 @@ After finishing this graph I think it might also be interesting to compare the p
 
 ## **References**
 
--   *Repo* - \<\>
 -   *Fantasy Six Nations* - Original raw data sets from <https://fantasy.sixnationsrugby.com>
 -   *Encyclorpedia* - Offical hex codes for branding colours for international rugby teams <https://encycolorpedia.com/teams/rugby-union/international>
 -   *Official Championship Logo and Brand Guidelines* - <https://d2cx26qpfwuhvu.cloudfront.net/sixnatlg/wp-content/uploads/2019/08/16113233/Guinness-Six-Nations-Championship-Guidelines.pdf>
