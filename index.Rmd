@@ -188,7 +188,7 @@ head(fantasy_data)
 
 ## **Visualisaion**
 
-### Six Nations Colours
+### **Six Nations Colours**
 
 Colours for the bar graph were chosen from the countries official team colours found on Encycolorpedia.
 
