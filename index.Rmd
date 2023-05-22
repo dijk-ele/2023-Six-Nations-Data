@@ -296,22 +296,22 @@ knitr::include_graphics(final_plot)
 
 ## **Design Choices**
 
-Due to the different categories of statisitcs, a stacked bar graph was the best way to visualise these groups. This automatically placed the negative groups (ie red and yellow cards) underneath the x axis instead of being deducted from the total which occured when the statisitcs weren't stacked. It was also possible to place the "Try/Posts" category closest to the x axis which enables viewers to also compare in-game points scored by the players.
+Due to the different categories of statistics, a stacked bar graph was the best way to visualise these groups. This automatically placed the negative groups (ie red and yellow cards) underneath the x axis instead of being deducted from the total which occurred when the statistics weren't stacked. It was also possible to place the "Try/Posts" category closest to the x axis which enables viewers to also compare in-game points scored by the players.
 
-Each group was set to a different transparency to highlight the differneces in these groups. The "Try/Posts" group was designed to be fully black since this is the group people are usually most concerned with when picking fantasy players. 
+Each group was set to a different transparency to highlight the differences in these groups. The "Try/Posts" group was designed to be fully black since this is the group people are usually most concerned with when picking fantasy players. 
 
 ## **Interpretation**
 
-There are a few interesting things to note from this graph. First is that there isn't a strong correlation between players who scored highly in "Try/Posts" category and players scoring most fantasy points overall. This is best replected by J. Tipuric for Wales who scored no in-game points but still managed to score better than all 3 of the top players for England. 
-Secondly, whilst Ireland may have won the Six Nations Championship and achieved a Grand Slam, they didn't have the top scoring player. As well as this, England beat both Italy and Wales in the competition, but they scored the lowest in fantasy points. This is useful to know when picking a fantasy squad since competition performance is not neccessarily reflected by fantasy points.  
+There are a few interesting things to note from this graph. First is that there isn't a strong correlation between players who scored highly in "Try/Posts" category and players scoring most fantasy points overall. This is best reflected by J. Tipuric for Wales who scored no in-game points but still managed to score better than all 3 of the top players for England. 
+Secondly, whilst Ireland may have won the Six Nations Championship and achieved a Grand Slam, they didn't have the top scoring player. As well as this, England beat both Italy and Wales in the competition, but they scored the lowest in fantasy points. This is useful to know when picking a fantasy squad since competition performance is not necessarily reflected by fantasy points.  
 
 
 ## **Conclusion**
-I had a lot of fun making this project felt like I really got to grips with daat wrangling and making for loops. I significantly increased my confidence in data analysis and visualision, even up to the point of helping other people with queries about r. I have never coded before this project but found the process really enjoyable and satisfying. I would keep showing my friends and family updated pictures of my lines of code and graphs, even if I knew they had no idea what it meant. 
+I had a lot of fun making this project felt like I really got to grips with data wrangling and making for loops. I significantly increased my confidence in data analysis and visualisation, even up to the point of helping other people with queries about r. I have never coded before this project but found the process really enjoyable and satisfying. I would keep showing my friends and family updated pictures of my lines of code and graphs, even if I knew they had no idea what it meant. 
 
 ## **Follow-ups**
 
-It is important to recognise that as well as the above categories, players also score points depending on which team won during the match. Teams get 8 points per winning player and 4 points per drawing player. Since this required separating each players statistics into the 5 rounds where they acquired them and then calculating the players that won or even played that roun, this felt too difficult for this visualisation. 
+It is important to recognise that as well as the above categories, players also score points depending on which team won during the match. Teams get 8 points per winning player and 4 points per drawing player. Since this required separating each players statistics into the 5 rounds where they acquired them and then calculating the players that won or even played that round, this felt too difficult for this visualisation. 
 
 After finishing this graph I think it might also be interesting to compare the position of the players since there is a clear correlation between position and points. For example, people always prioritise back row players in the forwards and back 3 players in the backs. Comparing all the flankers that played in the Six Nations might also be helpful in terms of player selection for fantasy squads.
 
